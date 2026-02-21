@@ -10,9 +10,16 @@ Pour remplir ce tableau tu dois aller chercher les informations sur Internet. "
 Voici les liens des tableaux excel ou toutes les données ont été générées par IA suite au prompt :
 
 Touche : https://docs.google.com/spreadsheets/d/1Dsc8ST-0W1n58ZFrCAMuvh8f3sbIyd0zau8TUVkH1e8/edit?usp=sharing
+
 Lore : https://docs.google.com/spreadsheets/d/1eGyKXYrTrB6i4Pf6X43R4IfnDv97PHDxgGHSAF55R0c/edit?usp=sharing
+
 Monstre : https://docs.google.com/spreadsheets/d/1Mq6bZv3nP2Qwl1qt97nogRgrfOlN7iA_mc7TjZKtNUE/edit?usp=sharing
+
 Item : https://docs.google.com/spreadsheets/d/18xGnVijer7EQE6EaUKDneU_P5yFITT6piEwc7GqO4FI/edit?usp=sharing
+
 Sort : https://docs.google.com/spreadsheets/d/1wwzojVJd8y8Xm6NhZrI-GgasUqCyejGUEOPS8zhSPjY/edit?usp=sharing
+
 Chroma : https://docs.google.com/spreadsheets/d/1VF4phgk49FSIe_kZbfufvWcohYzm02BPsd8_eNWQhq8/edit?usp=sharing
+
 Champion : https://docs.google.com/spreadsheets/d/1DHXsraf64q18ViP4rlN0exQpRO88xp3NWElBDvnU9dc/edit?usp=sharing
+
