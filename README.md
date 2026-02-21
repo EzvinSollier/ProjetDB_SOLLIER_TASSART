@@ -10,7 +10,7 @@ Pour remplir ce tableau tu dois aller chercher les informations sur Internet. "
 
 Voici les liens des tableaux excel ou toutes les données ont été générées par IA suite au prompt :
 
-Classe : https://docs.google.com/spreadsheets/d/16nzc86aFMvryH7yOV8CAnbgwqirLF3VyMXYTb9fiO3w/edit?usp=sharing
+Classe : 
 
 Lore : https://docs.google.com/spreadsheets/d/1eGyKXYrTrB6i4Pf6X43R4IfnDv97PHDxgGHSAF55R0c/edit?usp=sharing
 
