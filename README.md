@@ -23,3 +23,7 @@ Sort : https://docs.google.com/spreadsheets/d/1wwzojVJd8y8Xm6NhZrI-GgasUqCyejGUE
 Skin : https://docs.google.com/spreadsheets/d/1HG-t46yEeQDXxLyWAH9sPjCkiJdGEsZ0UimtUVYj3ac/edit?usp=sharing
 
 Champion : https://docs.google.com/spreadsheets/d/1KqssiYngF3adlSGVDUCOIjxOYNDjiz-0Vh-IkKDDcSc/edit?usp=sharing
+
+
+Image du MCD : 
+<img width="1502" height="876" alt="image" src="https://github.com/user-attachments/assets/a5afd965-877a-438a-bc95-aa7dd3dd2226" />
