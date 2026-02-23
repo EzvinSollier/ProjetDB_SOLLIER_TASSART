@@ -3,6 +3,7 @@ PARTIE 1 :
 Voici le prompt utilisé par l'IA pour avoir les donnnees des différents tableaux :
 
 " Fournis une base de données brutes qui respecte le modèle suivant 
+
 (1. Champion : Id , Nom , Difficulté , Prix
 2. Skin : Id , Chroma , Prix
 3. Classe : Nom
