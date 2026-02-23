@@ -9,8 +9,8 @@ Voici le prompt utilisé par l'IA pour avoir les donnnees des différents tablea
 4. Sort : Id , Texte , Ratio , Recharge
 5. Lore : Id , Cinematique , Origine
 6. Monstre : Id , HP , Attaque , XP , Cycle , Argent
-7. Item : Id , Description , Cout , Stat
-).
+7. Item : Id , Description , Cout , Stat)
+
 Regroupées dans un tableau. Il doit y avoir entre 25 et 35 données par entité. 
 Pour remplir ce tableau tu dois aller chercher les informations sur Internet. "
 (Plus une capture d'ecran du fichier MCD).
