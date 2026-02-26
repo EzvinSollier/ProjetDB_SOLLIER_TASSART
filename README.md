@@ -15,8 +15,8 @@ Voici le prompt utilisé par l'IA pour avoir les donnnees des différents tablea
 
 Regroupées dans un tableau. Il doit y avoir entre 25 et 35 données par entité. 
 De plus crée les différentes colonnes des bases de données pour en respectant 
-les chiffres en fassent des differents bases de données (pour 3 tu dois fournir 
-3 données pertinentes pour cette tables. Pour remplir ce tableau tu dois aller 
+les chiffres en fassent des differents bases de données (Exemple : pour 3 tu dois fournir 
+3 données pertinentes pour cette tables). Pour remplir ce tableau tu dois aller 
 chercher les informations sur Internet. "
 (Plus une capture d'ecran du fichier MCD).
 
