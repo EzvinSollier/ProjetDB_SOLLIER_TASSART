@@ -5,16 +5,19 @@ Voici le prompt utilisé par l'IA pour avoir les donnnees des différents tablea
 " Fournis une base de données brutes qui respecte le modèle suivant 
 
 (
-1. Champion : Id , Nom , Difficulté , Prix
-2. Skin : Id , Chroma , Prix
-3. Classe : Nom
-4. Sort : Id , Texte , Ratio , Recharge
-5. Lore : Id , Cinematique , Origine
-6. Monstre : Id , HP , Attaque , XP , Cycle , Argent
-7. Item : Id , Description , Cout , Stat)
+1. Champion : 4
+2. Skin : 3
+3. Classe : 1
+4. Sort : 4
+5. Lore : 3
+6. Monstre : 6
+7. Item : 4)
 
 Regroupées dans un tableau. Il doit y avoir entre 25 et 35 données par entité. 
-Pour remplir ce tableau tu dois aller chercher les informations sur Internet. "
+De plus crée les différentes colonnes des bases de données pour en respectant 
+les chiffres en fassent des differents bases de données (pour 3 tu dois fournir 
+3 données pertinentes pour cette tables. Pour remplir ce tableau tu dois aller 
+chercher les informations sur Internet. "
 (Plus une capture d'ecran du fichier MCD).
 
 
