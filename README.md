@@ -48,3 +48,67 @@ Image du MCD :
 Image du MLD : 
 <img width="1056" height="454" alt="image" src="https://github.com/user-attachments/assets/d6c10213-748c-4a77-ac2c-d9af3df754a6" />
 
+
+Partie 2 : 
+
+Voici le prompt utilisé : 
+Donne les requêtes d’insertion permettant de remplir la base de données dont le modèle relationnel est le suivant : 
+CREATE TABLE Sort (
+	So_id INT PRIMARY KEY,
+    So_Texte VARCHAR(50),
+    So_Ratio VARCHAR(50),
+    So_Recharge INT,
+    C_id INT,
+    Cl_nom VARCHAR(50),
+    FOREIGN KEY (C_id) REFERENCES Champion(C_id)
+    ON UPDATE CASCADE
+    ON DELETE CASCADE,
+    FOREIGN KEY (Cl_nom) REFERENCES Classe(Cl_nom)
+    ON UPDATE CASCADE
+    ON DELETE CASCADE
+);
+
+-- Sur cette partie on est au niveau des tables d'associations
+CREATE TABLE Composé_de (
+	I_id INT,
+    I_id_1 INT,
+    PRIMARY KEY (I_id, I_id_1),
+    FOREIGN KEY (I_id) REFERENCES Item(I_id)
+    ON UPDATE CASCADE
+    ON DELETE CASCADE,
+    FOREIGN KEY (I_id_1) REFERENCES Item(I_id)
+    ON UPDATE CASCADE
+    ON DELETE CASCADE
+);
+
+
+CREATE TABLE Tuer (
+	C_id INT,
+    M_id INT,
+    PRIMARY KEY (C_id, M_id),
+    FOREIGN KEY (C_id) REFERENCES Champion(C_id)
+    ON UPDATE CASCADE 
+    ON DELETE CASCADE,
+    FOREIGN KEY (M_id) REFERENCES Monstre(M_id)
+    ON UPDATE CASCADE
+    ON DELETE CASCADE
+);
+
+
+CREATE TABLE Achète (
+	C_id INT,
+    I_id INT,
+    PRIMARY KEY (C_id, I_id),
+    FOREIGN KEY (C_id) REFERENCES Champion(C_id)
+    ON UPDATE CASCADE
+    ON DELETE CASCADE,
+    FOREIGN KEY (I_id) REFERENCES Item(I_id)
+    ON UPDATE CASCADE
+    ON DELETE CASCADE
+);
+Les clés primaires correspondent aux id, sauf si autre chose est précisé (quand c'est un attribut composé) les clés étrangères sont identifiées comme si c'était du SQL, et ont le même nom que les clés primaires auxquelles elles font référence.
+Donne environ 50 lignes par table.
+Les clés étrangères doivent faire référence aux clés primaires existantes : donne les lignes en commençant par remplir les tables dans lesquelles il n'y a pas de clés étrangères, puis les tables dans lesquelles les clés étrangères font références à des clés primaires des tables déjà remplies. 
+
+Fournis l'ensemble sous la forme d’un script SQL prêt à être exécuté.
+
