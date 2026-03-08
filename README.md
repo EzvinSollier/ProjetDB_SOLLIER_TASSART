@@ -52,6 +52,7 @@ Image du MLD :
 Partie 2 : 
 
 Voici le prompt utilisé : 
+
 Donne les requêtes d’insertion permettant de remplir la base de données dont le modèle relationnel est le suivant : 
 
 CREATE TABLE Sort (
@@ -68,8 +69,6 @@ CREATE TABLE Sort (
     ON UPDATE CASCADE
     ON DELETE CASCADE
 );
-
--- Sur cette partie on est au niveau des tables d'associations
 
 CREATE TABLE Composé_de (
 	I_id INT,
