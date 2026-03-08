@@ -55,6 +55,37 @@ Voici le prompt utilisé :
 
 Donne les requêtes d’insertion permettant de remplir la base de données dont le modèle relationnel est le suivant : 
 
+CREATE TABLE Item (
+	I_id INT PRIMARY KEY,
+    I_description VARCHAR(50),
+    I_Cout INT,
+    I_Stat VARCHAR(50)
+);
+
+CREATE TABLE Monstre (
+	M_id INT PRIMARY KEY,
+    M_HP INT,
+    M_Attaque INT,
+    M_XP INT,
+    M_Cycle INT,
+    M_Argent INT
+);
+
+CREATE TABLE Classe (
+	Cl_Nom VARCHAR(50) PRIMARY KEY
+);
+
+CREATE TABLE Champion (
+	C_id INT PRIMARY KEY,
+    C_Nom VARCHAR(50),
+    C_Difficulté INT,
+    C_Prix INT,
+    L_id INT,
+    FOREIGN KEY (L_id) REFERENCES Lore(L_id)
+    ON UPDATE CASCADE
+    ON DELETE CASCADE
+);
+
 CREATE TABLE Sort (
 	So_id INT PRIMARY KEY,
     So_Texte VARCHAR(50),
