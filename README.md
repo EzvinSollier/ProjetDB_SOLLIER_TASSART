@@ -53,6 +53,7 @@ Partie 2 :
 
 Voici le prompt utilisé : 
 Donne les requêtes d’insertion permettant de remplir la base de données dont le modèle relationnel est le suivant : 
+
 CREATE TABLE Sort (
 	So_id INT PRIMARY KEY,
     So_Texte VARCHAR(50),
@@ -69,6 +70,7 @@ CREATE TABLE Sort (
 );
 
 -- Sur cette partie on est au niveau des tables d'associations
+
 CREATE TABLE Composé_de (
 	I_id INT,
     I_id_1 INT,
@@ -106,6 +108,7 @@ CREATE TABLE Achète (
     ON UPDATE CASCADE
     ON DELETE CASCADE
 );
+
 Les clés primaires correspondent aux id, sauf si autre chose est précisé (quand c'est un attribut composé) les clés étrangères sont identifiées comme si c'était du SQL, et ont le même nom que les clés primaires auxquelles elles font référence.
 Donne environ 50 lignes par table.
 Les clés étrangères doivent faire référence aux clés primaires existantes : donne les lignes en commençant par remplir les tables dans lesquelles il n'y a pas de clés étrangères, puis les tables dans lesquelles les clés étrangères font références à des clés primaires des tables déjà remplies. 
