@@ -51,6 +51,8 @@ Image du MLD :
 
 Partie 2 : 
 
+Partie 4
+
 Voici le prompt utilisé : 
 
 Donne les requêtes d’insertion permettant de remplir la base de données dont le modèle relationnel est le suivant : Selon l'image joint.
@@ -59,4 +61,17 @@ Donne environ 50 lignes par table.
 Les clés étrangères doivent faire référence aux clés primaires existantes : donne les lignes en commençant par remplir les tables dans lesquelles il n'y a pas de clés étrangères, puis les tables dans lesquelles les clés étrangères font références à des clés primaires des tables déjà remplies. 
 
 Fournis l'ensemble sous la forme d’un script SQL prêt à être exécuté.
+
+Partie 5
+
+Contexte de l'entreprise : Notre base de données gère les informations fondamentales d'un jeu vidéo de type MOBA (arène de bataille en ligne multijoueur), incluant les champions, leurs statistiques, les objets en boutique, les monstres présents sur la carte et le lore de l'univers.
+
+Rôles des Utilisateurs : Ce scénario met en scène deux départements distincts au sein du studio de développement :
+
+L'Équipe de Game Design (Équilibrage) : Chargée de s'assurer que le jeu est équitable, que la courbe de difficulté est bonne et que l'économie en jeu (or et expérience) est saine.
+
+L'Équipe de Monétisation & Marketing : Chargée d'analyser les prix des champions et des skins pour préparer les prochaines promotions et événements narratifs.
+
+Objectif principal :
+Extraire des statistiques ciblées sur l'état actuel du jeu pour décider des ajustements (buffs/nerfs) du prochain patch et planifier la prochaine campagne promotionnelle.
 
