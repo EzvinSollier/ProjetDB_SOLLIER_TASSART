@@ -43,7 +43,7 @@ CREATE TABLE Champion (
 CREATE TABLE Skin (
 	C_id INT,
     SK_ID INT,
-    SK_Chrome VARCHAR(50),
+    SK_Chroma VARCHAR(50),
     Sk_Prix INT,
     PRIMARY KEY (C_id, Sk_id),
     FOREIGN KEY (C_id) REFERENCES Champion(C_id)
