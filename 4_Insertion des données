@@ -67,7 +67,7 @@ INSERT INTO Item (I_id, I_Description, I_Cout, I_Stat) VALUES
 (46, 'Steel Shoulderguards', 400, '+3 AD, +30 HP'), (47, 'Relic Shield', 400, '+5 AP, +30 HP'),
 (48, 'Spectral Sickle', 400, '+5 AD, +10 HP'), (49, 'Dagger of Fire', 300, '+15% AS'), (50, 'Eye of the Storm', 3000, '+80 AP, +200 HP');
 
-INSERT INTO Champion (C_id, C_Nom, C_Difficulté, C_Prix, #L_id) VALUES
+INSERT INTO Champion (C_id, C_Nom, C_Difficulté, C_Prix, L_id) VALUES
 (1, 'Garen', 1, 450, 1), (2, 'Darius', 2, 4800, 2), (3, 'Irelia', 3, 6300, 3),
 (4, 'Ashe', 1, 450, 4), (5, 'Caitlyn', 2, 4800, 5), (6, 'Ekko', 3, 6300, 6),
 (7, 'Miss Fortune', 1, 3150, 7), (8, 'Thresh', 3, 6300, 8), (9, 'Azir', 3, 6300, 9),
@@ -86,7 +86,7 @@ INSERT INTO Champion (C_id, C_Nom, C_Difficulté, C_Prix, #L_id) VALUES
 (46, 'Graves', 2, 4800, 46), (47, 'Viego', 3, 6300, 47), (48, 'Nasus', 1, 1350, 48),
 (49, 'Pantheon', 2, 3150, 49), (50, 'VelKoz', 3, 4800, 50);
 
-INSERT INTO Composé_de (#I_id, #I_id_1) VALUES
+INSERT INTO Composé_de (I_id, I_id_1) VALUES
 (11, 1), (11, 16), (12, 18), (12, 3), (19, 1), (19, 16), (20, 1), (20, 10), (21, 2),
 (26, 3), (28, 6), (28, 1), (29, 19), (30, 6), (30, 1), (31, 3), (32, 1), (32, 2),
 (34, 3), (34, 4), (36, 1), (36, 16), (38, 6), (38, 7), (50, 12), (50, 17), (13, 4),
@@ -94,7 +94,7 @@ INSERT INTO Composé_de (#I_id, #I_id_1) VALUES
 (33, 14), (35, 14), (37, 2), (39, 4), (45, 3), (46, 1), (47, 3), (48, 1), (49, 6),
 (2, 41), (10, 42), (4, 4), (8, 1), (9, 3);
 
-INSERT INTO Skin (#C_id, Sk_id, Sk_Chroma, Sk_Prix) VALUES
+INSERT INTO Skin (C_id, Sk_id, Sk_Chroma, Sk_Prix) VALUES
 (1, 1, 'Steel Legion', 975), (1, 2, 'Dreadknight', 1350), (2, 1, 'Dunkmaster', 1820),
 (3, 1, 'High Noon', 1350), (4, 1, 'Project', 1820), (5, 1, 'Pool Party', 1350),
 (6, 1, 'True Damage', 1350), (7, 1, 'Arcade', 1350), (8, 1, 'Dark Star', 1820),
@@ -113,7 +113,7 @@ INSERT INTO Skin (#C_id, Sk_id, Sk_Chroma, Sk_Prix) VALUES
 (45, 1, 'Crime City', 975), (46, 1, 'Snow Day', 1350), (47, 1, 'Dissonance of Pentakill', 1350),
 (48, 1, 'Infernal', 1350), (49, 1, 'Dragon Slayer', 1350), (50, 1, 'Arclight', 975);
 
-INSERT INTO Sort (So_id, So_Texte, So_Ratio, So_Recharge, #C_id, #Cl_Nom) VALUES
+INSERT INTO Sort (So_id, So_Texte, So_Ratio, So_Recharge, C_id, Cl_Nom) VALUES
 (1, 'Decisive Strike', '1.5 AD', 8, 1, 'Combattant'), (2, 'Apprehend', '0.0 AD', 18, 2, 'Juggernaut'),
 (3, 'Flawless Duet', '0.8 AP', 12, 3, 'Skirmisher'), (4, 'Volley', '1.0 AD', 5, 4, 'Tireur'),
 (5, 'Ace in the Hole', '2.0 AD', 90, 5, 'Tireur'), (6, 'Chronobreak', '1.5 AP', 110, 6, 'Assassin'),
@@ -140,14 +140,14 @@ INSERT INTO Sort (So_id, So_Texte, So_Ratio, So_Recharge, #C_id, #Cl_Nom) VALUES
 (47, 'Heartbreaker', '1.2 AD', 120, 47, 'Skirmisher'), (48, 'Siphoning Strike', '1.0 AD', 4, 48, 'Juggernaut'),
 (49, 'Grand Starfall', '1.0 AP', 180, 49, 'Diver'), (50, 'Lifeform Disintegration Ray', '1.25 AP', 120, 50, 'Artillery');
 
-INSERT INTO Tuer (#C_id, #M_id) VALUES
+INSERT INTO Tuer (C_id, M_id) VALUES
 (1, 1), (1, 6), (2, 2), (2, 6), (3, 3), (3, 6), (4, 4), (5, 5), (6, 6), (7, 7),
 (8, 8), (9, 9), (10, 10), (11, 11), (12, 12), (13, 13), (14, 14), (15, 15), (16, 16), (17, 17),
 (18, 18), (19, 19), (20, 20), (21, 21), (22, 22), (23, 23), (24, 24), (25, 25), (26, 26), (27, 27),
 (28, 28), (29, 29), (30, 30), (31, 31), (32, 32), (33, 33), (34, 34), (35, 35), (36, 36), (37, 37),
 (38, 38), (39, 39), (40, 40), (41, 41), (42, 42), (43, 43), (44, 44), (45, 45), (46, 46), (47, 47);
 
-INSERT INTO Achète (#C_id, #I_id) VALUES
+INSERT INTO Achète (C_id, I_id) VALUES
 (1, 1), (1, 8), (1, 32), (2, 1), (2, 8), (2, 32), (3, 6), (3, 28), (4, 4), (4, 30),
 (5, 11), (5, 30), (6, 3), (6, 26), (7, 11), (7, 19), (8, 4), (8, 21), (9, 3), (9, 23),
 (10, 4), (10, 13), (11, 19), (12, 19), (13, 9), (14, 3), (15, 11), (16, 6), (16, 38), (17, 3),
