@@ -125,7 +125,7 @@ INSERT INTO Sort (So_id, So_Texte, So_Ratio, So_Recharge, C_id, Cl_Nom) VALUES
 (17, 'Frozen Tomb', '0.7 AP', 120, 17, 'Control'), (18, 'Assault and Battery', '1.1 AD', 120, 18, 'Diver'),
 (19, 'Infinite Duress', '1.0 AD', 110, 19, 'Juggernaut'), (20, 'Cannon Barrage', '0.1 AP', 140, 20, 'Specialist'),
 (21, 'Onslaught of Shadows', '1.0 AP', 140, 21, 'Diver'), (22, 'On the Hunt', '0.0', 120, 22, 'Tireur'),
-(23, 'Moonfall', '0.4 AP', 100, 23, 'Fighter'), (24, 'Thrill of the Hunt', '0.0', 110, 24, 'Slayer'),
+(23, 'Moonfall', '0.4 AP', 100, 23, 'Combattant'), (24, 'Thrill of the Hunt', '0.0', 110, 24, 'Slayer'),
 (25, 'Nether Grasp', '0.8 AP', 120, 25, 'Battlemage'), (26, 'Wild Growth', '0.5 AP', 110, 26, 'Enchanter'),
 (27, 'Cataclysm', '1.5 AD', 120, 27, 'Diver'), (28, 'Death Lotus', '0.19 AD', 90, 28, 'Slayer'),
 (29, 'Spirit Rush', '0.35 AP', 130, 29, 'Burst'), (30, 'Glacial Storm', '0.12 AP', 4, 30, 'Battlemage'),
@@ -152,4 +152,4 @@ INSERT INTO Achète (C_id, I_id) VALUES
 (5, 11), (5, 30), (6, 3), (6, 26), (7, 11), (7, 19), (8, 4), (8, 21), (9, 3), (9, 23),
 (10, 4), (10, 13), (11, 19), (12, 19), (13, 9), (14, 3), (15, 11), (16, 6), (16, 38), (17, 3),
 (18, 1), (19, 20), (20, 22), (21, 32), (22, 11), (23, 18), (24, 19), (25, 3), (26, 27), (27, 32),
-(28, 18), (29, 12), (30, 23), (31, 11), (32, 32), (33, 19), (34, 12), (35, 32), (36, 2), (37, 3);C_id
+(28, 18), (29, 12), (30, 23), (31, 11), (32, 32), (33, 19), (34, 12), (35, 32), (36, 2), (37, 3);
